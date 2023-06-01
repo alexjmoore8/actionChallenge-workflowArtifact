@@ -16,5 +16,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v3.1.2
       with:
-        name: linux
-        path: ./${{ env.ARTIFACT_NAME }}.exe
+        name: actions/checkout@v3.5.2
+        path: .
